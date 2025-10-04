@@ -56,7 +56,7 @@ public class Calculadora {
                             }
                             break;
                         default:
-                            System.out.println("Opción no válida. al seleccionar la acción coloca el número por su nombre.");
+                            System.out.println("Opción no válida. al seleccionar la acción del menú coloca el número por su nombre.");
                     }
                 } catch (NumberFormatException e) {
                     System.out.println("Error: Debes ingresar números válidos.");
